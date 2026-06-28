@@ -30,7 +30,6 @@ public class RestExceptionHandler {
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Error> handleException(Exception ex) {
-        ex.printStackTrace();
         Error error = new Error("unknown-error", "Ocurrió un error inesperado");
         return ResponseEntity.internalServerError().body(error);
     }
