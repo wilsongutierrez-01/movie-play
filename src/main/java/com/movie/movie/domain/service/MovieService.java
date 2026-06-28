@@ -4,9 +4,11 @@ import com.movie.movie.domain.dto.MovieDto;
 import com.movie.movie.domain.dto.UpdateMovieDto;
 import com.movie.movie.domain.repository.MovieRepository;
 import dev.langchain4j.agent.tool.Tool;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class MovieService {
     private final MovieRepository movieRepository;
 

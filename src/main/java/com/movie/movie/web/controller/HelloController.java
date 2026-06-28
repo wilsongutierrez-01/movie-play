@@ -1,5 +1,6 @@
-package com.movie.movie;
+package com.movie.movie.web.controller;
 
+import com.movie.movie.MoviePlayAiService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
