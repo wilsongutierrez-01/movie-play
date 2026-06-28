@@ -3,9 +3,9 @@ services:
     image: 'postgres:latest'
     restart: unless-stopped
     environment:
-      - 'POSTGRES_DB=platzi_play_db'
-      - 'POSTGRES_PASSWORD=alejandro.platzi'
-      - 'POSTGRES_USER=alejandro'
+      - 'POSTGRES_DB=movie_play_db'
+      - 'POSTGRES_PASSWORD=wilson.guti'
+      - 'POSTGRES_USER=wilson'
     ports:
       - '5432:5432'
     volumes:
