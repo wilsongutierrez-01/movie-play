@@ -12,7 +12,7 @@ public class HelloController {
         this.moviePlayAiService = moviePlayAiService;
     }
 
-    @GetMapping("/")
+    @GetMapping("/hello")
     public String sayHello() {
         return this.moviePlayAiService.generateGreeting();
     }
